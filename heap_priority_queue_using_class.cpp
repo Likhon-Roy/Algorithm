@@ -21,7 +21,7 @@ public:
     void heap_print()
     {
         for(int i=1;i<=_size;i++) cout<<vec[i]<<" ";
-        //for(auto it=vec.begin()+1;it!=vec.end();it++) cout<<*it<<" ";
+        for(auto it=vec.begin()+1;it!=vec.end();it++) cout<<*it<<" ";
     }
     void shift_down(int i);
     int extract_heap();
